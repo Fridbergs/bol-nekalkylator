@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bolånekalkyltaor</title>
+  </head>
+  <body>
+    <main>
+      <a href=""><h1>Bolånekalkylator</h1></a>
+      <article class="formArticle">
+        <div class="formDiv" id="formDiv">
+          <label for="lengthOfCash">Lånetid</label>
+          <input
+            id="lengthOfCash"
+            placeholder="Ange lånets längd"
+            type="number"
+            maxlength="2"
+          />
+          <label for="sumOfCash">Lånesumma</label>
+          <input
+            id="sumOfCash"
+            placeholder="Ange lånets storlek"
+            type="number"
+          />
+          <label for="interestRate">Räntesats %</label>
+          <input id="interestRate" placeholder="Ange årsräntan" type="number" />
+          <button class="calculateBtn" id="calculateBtn">Beräkna</button>
+        </div>
+        <h2 id="h2Header"></h2>
+        <div class="resultDiv" id="resultDiv">
+          <div class="resultContainer" id="monthContainer">
+            <div class="resultItem" id="monthResult"></div>
+          </div>
+          <div class="resultContainer" id="monthlyPaymentContainer">
+            <div class="resultItem" id="monthlyPaymentResult"></div>
+          </div>
+          <div class="resultContainer" id="principalContainer">
+            <div class="resultItem" id="principalResult"></div>
+          </div>
+          <div class="resultContainer" id="interestContainer">
+            <div class="resultItem" id="interestResult"></div>
+          </div>
+          <div class="resultContainer" id="remainingDebtContainer">
+            <div class="resultItem" id="remainingDebtResult"></div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>

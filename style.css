@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(6, 43, 76);
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding-top: 0.5em;
+}
+main {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border: 1px solid;
+  background-color: rgb(223, 244, 239);
+  border-radius: 1em;
+  gap: 1.5em;
+}
+
+button {
+  margin-top: 0.5em;
+  border-radius: 0.3em;
+  border: none;
+  height: 2em;
+  background-color: rgb(6, 43, 76);
+  color: bisque;
+  cursor: pointer;
+}
+button:hover {
+  border-radius: 0.3em;
+  border: none;
+  height: 2em;
+  background-color: rgb(106, 155, 197);
+  color: rgb(53, 43, 30);
+  cursor: pointer;
+}
+
+input {
+  border-radius: 0.3em;
+  border: none;
+  height: 2em;
+  text-align: center;
+  color: rgb(16, 57, 57);
+}
+
+.formArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formDiv {
+  gap: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 1.5em;
+}
+
+.resultDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.resultContainer {
+  width: 20%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
